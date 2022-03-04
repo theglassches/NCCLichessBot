@@ -21,7 +21,7 @@ RUN wget --no-check-certificate "https://github.com/ianfab/Fairy-Stockfish/relea
 COPY requirements.txt .
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-RUN chmod +x fsf
+RUN chmod +x stockfish_x64_modern
 # Engine name is here ^^^^^^
 
 CMD python3 run.py

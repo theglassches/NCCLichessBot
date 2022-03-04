@@ -1,14 +1,14 @@
-# MAINTAINERS 
-- [Kingnandi](https://lichess.org/@/Kingnandi) and [ChessGreatPlayer](https://lichess.org/@/ChessGreatPlayer)
+# MAINTAINERS
+- [LinuxR](https://lichess.org/@/LinuxR) and [CloseHorse](https://lichess.org/@/CloseHorse)
 
 [![Python](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Python.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Python.yml)
 [![Docker](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Docker.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Docker.yml)
-# lichess-bot
+# Lichess Bot
 - A bridge between [Lichess API](https://lichess.org/api#tag/Bot) and bots.
 - This bot is made with Python and it is running using Docker container and is concentrated on heroku.
 
 ## How to Install on Heroku
-- Import or [Fork](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/fork) this repository to your Github.
+- Import or [Fork](https://github.com/CloseHorse/ProfessionalLichessBot/fork) this repository to your Github.
 - Open the `config.yml` file and insert your [API access token](https://lichess.org/account/oauth/token/create?scopes[]=bot:play&description=Lichess+Bot+Token) in to token option and commit changes over [here](/config.yml#L1).
 - Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) and [create a new app](https://dashboard.heroku.com/new-app) in Heroku. <br/>
 **Do note that in certain operating systems Heroku CLI doesn't get added to path automatically. If that's the case you'll have to add heroku to your path manually.**
@@ -18,11 +18,11 @@
 Note: You could also `Enable Automatic Deploys` with the `master` branch selected if you would like each commit you make to get automatically and easily deployed onto your bot. It is your choice whether you'd like to Enable or Disable Automatic Deploys.
 - After deploying wait for about 5 minutes till the build finishes and then in the `Resources` tab in heroku turn `worker` dynos. If you do not see any option to enable any dynos, then you'll have to wait for about 5 minutes and then refresh your page on heroku.
 
-**You're now connected to lichess and awaiting challenges! Your bot is up and ready!**
+**You're Now Connected to Lichess and awaiting Challenges! Your bot is up and ready!**
 
 ## Bot Information
 Engine:
-- [Stockfish 14 dev](https://abrok.eu/stockfish/builds/ad357e147a1b8481a04761d726ce1db14115a68f/linux64modern/stockfish_21082721_x64_modern.zip) with the default NNUE.
+- [Stockfish 14 Dev Version!](https://abrok.eu/stockfish/builds/ad357e147a1b8481a04761d726ce1db14115a68f/linux64modern/stockfish_21082721_x64_modern.zip) with the default NNUE.
 
 Opening Books: 
 - [Goi5.1.bin](https://gitlab.com/OIVAS7572/Goi5.1.bin/-/raw/master/Goi5.1.bin.7z)
@@ -53,4 +53,4 @@ Note: Make sure you download a linux binary that is supported by heroku (by defa
 **Note: You need to use `Linux x64 for modern computers` binary for Heroku.**
 
 ## Acknowledgements
-Credits to [Kingnandi](https://lichess.org/@/Kingnandi) and [ChessGreatPlayer](https://lichess.org/@/ChessGreatPlayer). They helped to collaborate and make this repository it contains codes of them and it is the best lichess repository to run bot in lichess by heroku server and a modified version of ShailChoksi.
+Credits to [LinuxR](https://lichess.org/@/LinuxR) and [CloseHorse](https://lichess.org/@/CloseHorse). They helped to collaborate and make this repository it contains codes of them and it is the Best Lichess Repository to Run Bot in Lichess By Heroku Server and a Modified Version of ShailChoksi.

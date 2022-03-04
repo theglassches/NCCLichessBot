@@ -1,5 +1,5 @@
-# MAINTAINERS
-- [LinuxR](https://lichess.org/@/LinuxR) and [CloseHorse](https://lichess.org/@/CloseHorse)
+# MAINTAINER
+- [CloseHorse](https://lichess.org/@/CloseHorse)
 
 [![Python](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Python.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Python.yml)
 [![Docker](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Docker.yml/badge.svg)](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/actions/workflows/Docker.yml)
@@ -53,4 +53,4 @@ Note: Make sure you download a linux binary that is supported by heroku (by defa
 **Note: You need to use `Linux x64 for modern computers` binary for Heroku.**
 
 ## Acknowledgements
-Credits to [LinuxR](https://lichess.org/@/LinuxR) and [CloseHorse](https://lichess.org/@/CloseHorse). They helped to collaborate and make this repository it contains codes of them and it is the Best Lichess Repository to Run Bot in Lichess By Heroku Server and a Modified Version of ShailChoksi.
+Credits to [CloseHorse](https://lichess.org/@/CloseHorse). They helped to collaborate and make this repository it contains codes of them and it is the Best Lichess Repository to Run Bot in Lichess By Heroku Server and a Modified Version of ShailChoksi.
